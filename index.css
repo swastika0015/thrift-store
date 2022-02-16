@@ -90,8 +90,7 @@ section{
     font-size: 1rem;
     border-radius: 0.5rem;
     border: none;
-    font-weight: 600;
-    border: 2px solid var(--primary-color);
+    font-weight: 500;
 }
 .card-container{
     padding: 1rem;
