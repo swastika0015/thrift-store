@@ -31,6 +31,7 @@
     margin-top: 3px;
 }
 
+
 .search-container input[type=text] {
     padding: 5px;
     margin-left: -5px;
@@ -105,5 +106,8 @@ section{
 .card-component{
     width: 22rem;
 }
-
+.bestseller-badge{
+    font-size: 2rem;
+    opacity: 0.8;
+}
 
