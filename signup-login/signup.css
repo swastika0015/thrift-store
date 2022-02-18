@@ -1,7 +1,7 @@
 @import "../index.css";
 @import url("https://radiantui.netlify.app/input/input.css");
 body{
-    background-color: #fff3f0;
+    background-color: var(--bg-color);
 }
 .login-container{
     display: flex;
@@ -33,6 +33,10 @@ body{
     text-decoration: none;  
 }
 
-.input-box{
-    font-size: 14px;
+.password a{
+    font-size: 1rem;
+    padding: 8px;
+}
+.input-box label{
+    font-size: 1rem;
 }
