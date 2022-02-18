@@ -1,0 +1,42 @@
+@import "../index.css";
+@import url("https://radiantui.netlify.app/input/input.css");
+body{
+    background-color: var(--bg-color);
+}
+.login-container{
+    display: flex;
+    justify-content: center;
+}
+.input-container{
+    background-color: var(--white-color);
+    gap: 1.5rem;
+    width: 21rem;
+}
+.input{
+    border: 1px solid var(--grey-color);
+}
+.login-container a:link{
+    color: var(--primary-color);
+    text-decoration: none;
+    }
+    a:visited {
+    color: var(--primary-color);
+    text-decoration: none;
+    }
+    a:hover {
+    color: var(--black-color);
+    text-decoration: none;
+    cursor: pointer;
+    }
+    a:active {
+    color: var(--primary-color);
+    text-decoration: none;  
+}
+
+.password a{
+    font-size: 1rem;
+    padding: 8px;
+}
+.input-box label{
+    font-size: 1rem;
+}
