@@ -1,0 +1,73 @@
+@import "../index.css";
+
+
+.card{
+    flex-wrap: nowrap;
+    width: 37rem;
+    box-shadow: none;
+    border: 1px solid var(--dark-grey-color);
+    padding: 1rem;
+}
+.card-img{
+    width: 10rem;
+}
+.card-details{
+    text-align: left;
+    padding: 0;
+    padding-left: 1rem;
+    justify-content: space-between;
+}
+
+.main-container{
+    justify-content: center;
+}
+.cart-items{
+    gap: 1rem;
+    padding: 1rem;
+}
+.dropdown label{
+    padding: 0 5px 0 0;
+}
+.dropdown select{
+    margin: 0 9px 0 0;
+}
+
+.card-btn{
+    padding: 5px;
+    border: 1px solid var(--dark-grey-color);
+    margin: 0;
+    width: fit-content;
+    gap: 0;
+}
+.wishlist-add:hover{
+    background-color: var(--grey-color);
+    cursor: pointer;
+}
+
+
+/*bill*/
+
+.bill-sidebar{
+    width: 20rem;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid var(--dark-grey-color);
+}
+.price-details{
+    justify-content: space-between;
+}
+hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.cart-btn{
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    opacity: 0.8;
+    border: 1px solid var(--primary-color);
+    margin: 0;
+    width: 100%;
+}
+.cart-btn:hover{
+    opacity: 1;
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="nav-items flex-flow-row">
+                <div class="nav-item"><a><img src="../images/logo.png" height="40rem" width="100rem"></a></div>
+                <div class="cart-info">
+                        <h3>Bag ------- Address ------- Payment</h3>
+                  </div>
+                  <div class="nav-items-right flex-flow-row">
+                    <div class="nav-item"><a href="signup-login/signup.html"><i class="fa fa-user fa-lg" aria-hidden="true"></i></a></div>
+                    <div class="nav-item"><a><i class="fa fa-heart fa-lg" aria-hidden="true"></i></a></div>
+                    <div class="nav-item"><a><i class="fa fa-shopping-bag fa-lg" aria-hidden="true"></i></a></div>                     
+                  </div>
+            </div>
+        </div>
+
+    </header>
+
+    <section>
+        <div class="main-container flex-flow-row">
+            <div class="flex-flow-column cart-items">
+                <div class="card card-component flex-flow-row card-horizontal">
+                    <img class="card-img card-img-horizontal" src="../images/women.jpg">
+                  <div class="card-details flex-flow-column-horizontal flex-flow-column">
+                    <h3>Nike</h3>
+                    <p>Red hoodie dress.</p>
+                    <div class="dropdown flex-flow-row">
+                        <label for="quantity">Qty</label>
+                        <select name="quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        </select>
+
+                        <label for="size">Size</label>
+                        <select name="size">
+                        <option value="XS">XS</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                        </select>
+                    </div>
+
+                    <p class="price"><ins>Rs 999</ins> <del>Rs 1299</del></p>
+                    <p>Delivery by 1 Mar 2022</p>
+                    <div class="card-actions">
+                        <button class="card-action-btn  card-btn">
+                            <i class="fa fa-cross  fa-lg"></i>Remove
+                        </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card card-component flex-flow-row card-horizontal">
+                    <img class="card-img card-img-horizontal" src="../images/women2.jpg">
+                  <div class="card-details flex-flow-column-horizontal flex-flow-column">
+                    <h3>H&M</h3>
+                    <p>Yellow H&M crop hoodie.</p>
+                    <div class="dropdown flex-flow-row">
+                        <label for="quantity">Qty</label>
+                        <select name="quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        </select>
+
+                        <label for="size">Size</label>
+                        <select name="size">
+                        <option value="XS">XS</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                        </select>
+                    </div>
+
+                    <p class="price"><ins>Rs 1299</ins> <del>Rs 2299</del></p>
+                    <p>Delivery by 1 Mar 2022</p>
+                    <div class="card-actions">
+                        <button class="card-action-btn  card-btn">
+                            <i class="fa fa-cross  fa-lg"></i>Remove
+                        </button>
+                    </div>
+                  </div>
+                </div>   
+
+                <div class="card card-component flex-flow-row card-horizontal  wishlist-add">
+                    
+                  <div class="card-details wishlist-add">
+                    <h3><a href="../wishlist/wishlist.html">Add more items from Wishlist!</a></h3>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="bill-sidebar flex-flow-column">
+                
+                    <div class="price-details flex-flow-row">
+                        <h3><a>Coupon</a></h3>
+                        <div class="card-actions">
+                            <button class="card-action-btn card-btn cart-btn">
+                             Apply
+                            </button>
+                        </div>
+                    </div>
+                    <hr>
+                    <h3>Price Details</h3>
+                    <hr>
+                    <div class="price-details flex-flow-row">
+                        <p>Total MRP</p>
+                        <p>Rs 2299</p>
+                    </div>
+    
+                    <div class="price-details discount flex-flow-row">
+                        <p>Discount</p>
+                        <p>Rs 1300</p>
+                    </div>
+                    <hr>
+                    <div class="price-details discount flex-flow-row">
+                        <p>Convinience fee</p>
+                        <p>Free</p>
+                    </div>
+                    <hr>
+                    <div class="price-details discount flex-flow-row">
+                        <h3>Total Amount</h3>
+                        <h3>Rs 2299</h3>
+                    </div>
+                    <hr>
+
+                    <div class="card-actions">
+                        <button class="card-action-btn cart-btn">
+                            Proceed to pay
+                        </button>
+                    </div>
+                </div>
+
+
+            
+        </div>
+    </section>
+
+    <footer>
+        <h3>Made with 💜 by Swastika</h3>
+    </footer>
+
+</body>
+</html>
