@@ -1,0 +1,98 @@
+@import "../index.css";
+
+section{
+    padding: 0;
+}
+.main-container{
+    flex-wrap: nowrap;
+    margin-bottom: 2rem;
+}
+.slider {
+    -webkit-appearance: none;
+    height: 8px;
+    background: var(--grey-color);
+    opacity: 0.9;
+    border-radius:2rem;
+    border: 1px solid var(--dark-grey-color);
+    width: 90%;
+}  
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width:1.25rem;
+    height: 1.25rem;
+    background: var(--dark-grey-color);
+    cursor: pointer;
+    border-radius: 50%;
+}
+.slider:hover{
+    opacity: 1;
+}
+
+
+/*sidebar*/
+.sidebar{
+    min-width: 15rem;
+}
+.sidebar-item{
+    border-top: 1px solid var(--dark-grey-color);
+    padding: 1rem;
+    border-right: 1px solid var(--dark-grey-color);
+}
+
+.sidebar-heading{
+    margin: 1rem;
+}
+.radio-btns label,input[type="radio"], h3{
+    margin: 0.5rem;
+    display: inline-block;
+}
+.colors-container i{
+    margin-right: 00.5rem;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.blue{
+    color: blue;
+}
+.yellow{
+    color: yellow;
+}
+.black{
+    color: black;
+}
+.pink{
+    color: pink;
+}
+.purple{
+    color: purple;
+}
+
+
+/*cards*/
+.product-cards{
+    flex-grow: 2;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--dark-grey-color);
+}
+.card{
+    box-shadow: none;
+}
+.card:hover{
+    box-shadow: 0 5px 5px var(--shadow-color), 0 6px 20px 0 var(--shadow-color);;
+}
+.card-component{
+    width: 17rem;
+}
+.card-img{
+    height: 17rem;
+}
+.card-details{
+    text-align: left;
+}

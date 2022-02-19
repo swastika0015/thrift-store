@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="listingpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="nav-items flex-flow-row">
+                <div class="nav-item"><a href="../index.html"><img src="../images/logo.png" height="40rem" width="100rem"></a></div>
+                <div class="nav-item"><a>Categories</a></div>
+                <div class="nav-item"><a>Brands</a></div>
+                <div class="nav-item"><a>Crop Hoodie</a></div>
+                <div class="search-container">
+                    <form>
+                      <button type="submit"><i class="fa fa-search"></i></button>
+                      <input type="text" placeholder="Search.." name="search">
+                    </form>
+                  </div>
+                  <div class="nav-items-right flex-flow-row">
+                    <div class="nav-item"><a href="#"><i class="fa fa-user fa-lg" aria-hidden="true"></i></a></div>
+                    <div class="nav-item"><a href="../wishlist/wishlist.html"><i class="fa fa-heart fa-lg" aria-hidden="true"></i></a></div>
+                    <div class="nav-item"><a href="../cart/cart.html"><i class="fa fa-shopping-bag fa-lg" aria-hidden="true"></i></a></div>                     
+                  </div>
+            </div>
+        </div>
+
+    </header>
+
+    <section>
+        <div class="filter-sort">
+            <h3 class="sidebar-heading">FILTERS</h3>
+        </div>
+        <div class="main-container flex-flow-row">
+            <div class="sidebar flex-flow-column">
+                <div class="sidebar-item categories">
+                    <h3>Categories</h3>
+                    <div class="radio-btns">
+                        <input type="radio" value="#">
+                        <label for="">Tops and Tees</label><br>
+                        <input type="radio" value="#">
+                        <label for="">Jeans and Trousers</label><br>
+                        <input type="radio" value="#">
+                        <label for="">Jewellery</label><br>
+                        <input type="radio" value="#">
+                        <label for="">Crop Hoodie</label><br>
+                    </div>
+                </div>
+                <div class="sidebar-item">
+                    <h3>Price</h3>
+                    <div class="slide-container radio-btns">
+                        <input type="range" class="slider" min="500" max="10000" value="5000"><br>
+                        <input type="radio" value="30">
+                        <label for="">500 - 1500</label><br>
+                        <input type="radio" value="60">
+                        <label for="">1500 - 3000</label><br>  
+                        <input type="radio" value="#">
+                        <label for="">3000 - 5000</label><br>
+                    </div>
+                </div>
+                <div class="sidebar-item">
+                    <h3>Colors</h3>
+                    <div class="colors-container radio-btns">
+                        <input type="radio" value="#">
+                        <label for=""><i class="fa fa-circle red"></i>Red</label><br>
+                        <input type="radio" value="#">
+                        <label for=""><i class="fa fa-circle green"></i>Green</label><br>  
+                        <input type="radio" value="#">
+                        <label for=""><i class="fa fa-circle blue"></i>Blue</label><br>
+                        <input type="radio" value="#">
+                        <label for=""><i class="fa fa-circle  black"></i>Black</label><br>
+                        <input type="radio" value="#">
+                        <label for=""><i class="fa fa-circle purple"></i>Purple</label><br>
+                        <input type="radio" value="#">
+                        <label for=""><i class="fa fa-circle pink"></i>Pink</label><br>
+                        <input type="radio" value="#">
+                        <label for=""><i class="fa fa-circle yellow"></i>Yellow</label><br>
+                    </div>
+                </div>
+                <div class="sidebar-item">
+                    <h3>Ratings</h3>
+                    <div class="ratings-container radio-btns">
+                        <input type="radio" value="30">
+                        <label for="">4 stars and above</label><br>
+                        <input type="radio" value="60">
+                        <label for="">3 stars and above</label><br>  
+                        <input type="radio" value="#">
+                        <label for="">2 stars and above</label><br>  
+                        <input type="radio" value="#">
+                        <label for="">Below 2 stars</label><br>
+                    </div>
+                </div>
+            </div>
+
+            <!--product listing-->
+            <div class="flex-flow-row product-cards">
+                <div class="card card-component">
+                    <img class="card-img" src="../images/women.jpg">
+                    <div class="card-details flex-flow-column">
+                        <h2><a>Apparel</a></h2> 
+                        <p>Crop Hoodies are cute, no?</p>
+                        <p class="price"><ins>Rs 999</ins> <del>Rs 1299</del></p>
+                    </div>
+                    <div class="card-actions">
+                        <button class=" card-action-btn Add to card-btn"><i class="fa fa-shopping-cart fa-lg"></i>Add to card</button>
+                    </div>
+                </div>
+
+                <div class="card card-component">
+                    <img class="card-img" src="../images/women.jpg">
+                    <div class="card-details flex-flow-column">
+                        <h2><a>Apparel</a></h2> 
+                        <p>Crop Hoodies are cute, no?</p>
+                        <p class="price"><ins>Rs 999</ins> <del>Rs 1299</del></p>
+                    </div>
+                    <div class="card-actions">
+                        <button class=" card-action-btn Add to card-btn"><i class="fa fa-shopping-cart fa-lg"></i>Add to card</button>
+                    </div>
+                </div>
+
+                <div class="card card-component">
+                    <img class="card-img" src="../images/women.jpg">
+                    <div class="card-details flex-flow-column">
+                        <h2><a>Apparel</a></h2> 
+                        <p>Crop Hoodies are cute, no?</p>
+                        <p class="price"><ins>Rs 999</ins> <del>Rs 1299</del></p>
+                    </div>
+                    <div class="card-actions">
+                        <button class=" card-action-btn Add to card-btn"><i class="fa fa-shopping-cart fa-lg"></i>Add to card</button>
+                    </div>
+                </div>
+
+                <div class="card card-component">
+                    <img class="card-img" src="../images/women.jpg">
+                    <div class="card-details flex-flow-column">
+                        <h2><a>Apparel</a></h2> 
+                        <p>Crop Hoodies are cute, no?</p>
+                        <p class="price"><ins>Rs 999</ins> <del>Rs 1299</del></p>
+                    </div>
+                    <div class="card-actions">
+                        <button class=" card-action-btn Add to card-btn"><i class="fa fa-shopping-cart fa-lg"></i>Add to card</button>
+                    </div>
+                </div>
+
+                <div class="card card-component">
+                    <img class="card-img" src="../images/women2.jpg">
+                    <div class="card-details flex-flow-column">
+                        <h2><a>Crop Hoodie</a></h2>
+                        <p>Crop Hoodies are cute, no?</p>
+                        <p class="price">Rs 699</p>
+                    </div>
+                    <div class="card-actions">
+                        <button class=" card-action-btn Add to card-btn"><i class="fa fa-shopping-cart fa-lg"></i>Add to card</button>
+                    </div>  
+                </div>
+
+                <div class="card card-component">
+                    <img class="card-img" src="../images/women2.jpg">
+                    <div class="card-details flex-flow-column">
+                        <h2><a>Crop Hoodie</a></h2>
+                        <p>Crop Hoodies are cute, no?</p>
+                        <p class="price">Rs 699</p>
+                    </div>
+                    <div class="card-actions">
+                        <button class=" card-action-btn Add to card-btn"><i class="fa fa-shopping-cart fa-lg"></i>Add to card</button>
+                    </div> 
+                </div>
+
+                <div class="card card-component">
+                    <img class="card-img" src="../images/women2.jpg">
+                    <div class="card-details flex-flow-column">
+                        <h2><a>Crop Hoodie</a></h2>
+                        <p>Crop Hoodies are cute, no?</p>
+                        <p class="price">Rs 699</p>
+                    </div>
+                    <div class="card-actions">
+                        <button class=" card-action-btn Add to card-btn"><i class="fa fa-shopping-cart fa-lg"></i>Add to card</button>
+                    </div> 
+                </div>
+            
+                <div class="card card-component">
+                    <div class="text-overlay">
+                        <h2>Out of stock</h2>
+                    </div>
+                    <img class="card-img" src="../images/beauty.jpg" alt="Crop Hoodies">
+                    <div class="card-details flex-flow-column">
+                        <h2>Crop Hoodie</h2>
+                        <p>Crop Hoodies are cute, no?</p>
+                        <p class="price">Rs 699</p>
+                    </div>
+                    <div class="card-actions">
+                        <button class=" card-action-btn Add to card-btn"><i class="fa fa-shopping-cart fa-lg"></i>Add to card</button>
+                    </div>
+                </div>          
+            </div>
+    </section>
+
+    <footer>
+        <h3>Made with 💜 by Swastika</h3>
+    </footer>
+
+</body>
+</html>
