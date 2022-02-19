@@ -1,0 +1,18 @@
+@import "../index.css";
+@import "../listing-page/listingpage.css";
+
+
+.card-container{
+    padding: 4rem;
+    padding-top: 2rem;
+}
+.wishlist-list{
+    padding-left: 1rem;
+}
+.product-cards{
+    border: none;
+}
+.dismiss{
+    color: var(--white-color);
+    opacity: 0.8;
+}
