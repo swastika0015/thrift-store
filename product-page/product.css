@@ -1,7 +1,7 @@
 @import "../index.css";
 
 .product-img{
-    width: 22rem;
+    width: 24rem;
     height: 30rem;
 
 }
@@ -14,7 +14,7 @@
 
 .img-container{
     height: auto;
-    width: 46rem;
+    width: 50rem;
     gap: 1rem;
     padding: 1rem;
     justify-content: space-evenly;
@@ -23,4 +23,45 @@
 .product-info{
     gap: 1rem;
     padding: 2rem;
+    width: 34rem;
+}
+.product-actions{
+    gap: 1rem;
+}
+.dropdown{
+    gap: 1rem;
+}
+.cart-btn{
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    opacity: 0.8;
+    border: 1px solid var(--primary-color);
+    margin: 0;
+    width: 44%;
+    font-size: 1.2rem;
+    padding: 0;
+}
+.cart-btn:hover{
+    opacity: 1;
+}
+.wishlist{
+    color: var(--primary-color);
+    background-color: var(--white-color);
+    opacity: 0.8;
+    border: 1px solid var(--primary-color);
+}
+.wishlist:hover{
+    border: 2px solid var(--primary-color);
+}
+.sizes{
+    gap: 1rem;
+}
+.avatar{
+    font-size: 1.5rem;
+    border: 1px solid var(--dark-grey-color);
+}
+.review{
+    border: 1px solid var(--dark-grey-color);
+    border-radius: 0.5rem;
+    padding: 1rem;
 }
