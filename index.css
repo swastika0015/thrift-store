@@ -66,6 +66,7 @@ a:link {
     font-size: 1.15rem;
     margin-top: 3px;
 }
+
 .search-container input[type=text] {
     padding: 5px;
     margin-left: -5px;
@@ -100,7 +101,7 @@ a:link {
 }
 .nav-item img{
     padding: 0;
-    margin: -1rem;
+    margin-top: -0.5rem;
 }
 .nav-item i{
     color: var(--black-color);
