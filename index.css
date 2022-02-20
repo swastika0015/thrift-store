@@ -159,7 +159,7 @@ section{
 
 footer{
     text-align: center;
-    background-color: var(-grey-color);
+    background-color: var(-white-color);
     color: var(--primary-color);
     padding: 2rem;
     border-top: 1px solid var(--dark-grey-color);
