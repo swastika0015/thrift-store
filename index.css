@@ -1,18 +1,24 @@
 @import url("https://radiantui.netlify.app/cards/cards.css");
 @import url("https://radiantui.netlify.app/badges/badges.css");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
 
 :root{
  --black-color: #111111c2;
  --primary-color: #cf0883;
  --grey-color: #F0F0F0;
  --dark-grey-color: #B8B8B8;
- --white-color:#fff;
+ --white-color:#fffafa;
  --bg-color: #fff3f0;
 }
 *{
     margin: 0;
     letter-spacing: 0.5px;
+    font-family: 'Nunito', sans-serif;
 }
+body{
+    background-color: var(--white-color);
+}
+
 .flex-flow-row{
     display: flex;
     flex-direction: row;
@@ -64,8 +70,7 @@ a:link {
     margin-left: -5px;
     font-size: 1rem;
     border: none;
-    width: 24rem;
-    
+    width: 27rem;
     background-color: var(--grey-color);
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
@@ -110,7 +115,7 @@ section{
 .img-container{
     width: 100%; 
     object-fit: cover;
-    height: 36rem;
+    height: 34rem;
 }
 .btn-container{
     text-align: center;
@@ -125,11 +130,13 @@ section{
     padding: 0.5rem 1rem;
     opacity: 1;
     background-color: var(--white-color);
-    color: var(--primary-color);
     font-size: 1rem;
     border-radius: 0.5rem;
     border: none;
     font-weight: 500;
+}
+.btn a:link{
+    color: var(--primary-color);
 }
 .card-container{
     padding: 1rem;
