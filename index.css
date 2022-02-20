@@ -6,12 +6,15 @@
  --primary-color: #cf0883;
  --grey-color: #F0F0F0;
  --dark-grey-color: #B8B8B8;
- --white-color:#fff;
+ --white-color:#fffafa;
  --bg-color: #fff3f0;
 }
 *{
     margin: 0;
     letter-spacing: 0.5px;
+}
+body{
+    background-color: var(--white-color);
 }
 .flex-flow-row{
     display: flex;
