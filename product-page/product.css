@@ -3,7 +3,6 @@
 .product-img{
     width: 24rem;
     height: 30rem;
-
 }
 .card-details{
     text-align: left;
@@ -11,7 +10,6 @@
     padding-left: 1rem;
     justify-content: space-between;
 }
-
 .img-container{
     height: auto;
     width: 50rem;
@@ -19,7 +17,6 @@
     padding: 1rem;
     justify-content: space-evenly;
 }
-
 .product-info{
     gap: 1rem;
     padding: 2rem;
@@ -57,8 +54,13 @@
     gap: 1rem;
 }
 .avatar{
-    font-size: 1.5rem;
+    font-size: 1rem;
     border: 1px solid var(--dark-grey-color);
+}
+.avatar:hover{
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: var(--white-color);
 }
 .review{
     border: 1px solid var(--dark-grey-color);
