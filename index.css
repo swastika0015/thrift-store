@@ -1,6 +1,7 @@
 @import url("https://radiantui.netlify.app/cards/cards.css");
 @import url("https://radiantui.netlify.app/badges/badges.css");
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+@import url("https://radiantui.netlify.app/avatar/avatar.css");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@350&display=swap");
 
 :root{
  --black-color: #111111c2;
@@ -65,6 +66,7 @@ a:link {
     font-size: 1.15rem;
     margin-top: 3px;
 }
+
 .search-container input[type=text] {
     padding: 5px;
     margin-left: -5px;
@@ -99,7 +101,7 @@ a:link {
 }
 .nav-item img{
     padding: 0;
-    margin: -1rem;
+    margin-top: -0.5rem;
 }
 .nav-item i{
     color: var(--black-color);
@@ -157,9 +159,9 @@ section{
 }
 
 
-footer{
+.footer{
     text-align: center;
-    background-color: var(-grey-color);
+    background-color: var(-white-color);
     color: var(--primary-color);
     padding: 2rem;
     border-top: 1px solid var(--dark-grey-color);
