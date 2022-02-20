@@ -80,6 +80,7 @@ section{
     gap: 1rem;
     padding-top: 1rem;
     border-top: 1px solid var(--dark-grey-color);
+    padding: 1rem;
 }
 .card{
     box-shadow: none;
