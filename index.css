@@ -64,8 +64,8 @@ a:link {
     margin-left: -5px;
     font-size: 1rem;
     border: none;
-    width: 20rem;
-    padding-left: 5rem;
+    width: 24rem;
+    
     background-color: var(--grey-color);
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
