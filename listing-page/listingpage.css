@@ -43,7 +43,7 @@ section{
 .sidebar-heading{
     margin: 1rem;
 }
-.radio-btns label,input[type="radio"], h3{
+.radio-btns label,input[type="radio"], input[type="checkbox"], h3{
     margin: 0.5rem;
     display: inline-block;
 }
@@ -77,12 +77,13 @@ section{
 .product-cards{
     flex-grow: 2;
     justify-content: space-evenly;
-    gap: 1.5rem;
+    gap: 1rem;
     padding-top: 1rem;
     border-top: 1px solid var(--dark-grey-color);
 }
 .card{
     box-shadow: none;
+    margin: 5px;
 }
 .card:hover{
     box-shadow: 0 5px 5px var(--shadow-color), 0 6px 20px 0 var(--shadow-color);;
